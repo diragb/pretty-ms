@@ -1,14 +1,14 @@
 {
-	"name": "pretty-ms",
-	"version": "8.0.0",
-	"description": "Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`",
+	"name": "react-native-pretty-ms",
+	"version": "0.1.0",
+	"description": "Convert milliseconds in React Native to a human readable string: `1337000000` → `15d 11h 23m 20s`",
 	"license": "MIT",
-	"repository": "sindresorhus/pretty-ms",
-	"funding": "https://github.com/sponsors/sindresorhus",
+	"repository": "diragb/react-native-pretty-ms",
+	"funding": "https://github.com/sponsors/diragb",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"name": "Dirag Biswas",
+		"email": "hey@diragb.dev",
+		"url": "https://github.com/diragb"
 	},
 	"type": "module",
 	"exports": "./index.js",
@@ -24,6 +24,8 @@
 		"index.d.ts"
 	],
 	"keywords": [
+    "react native",
+    "expo",
 		"pretty",
 		"prettify",
 		"human",
