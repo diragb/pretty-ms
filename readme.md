@@ -2,16 +2,18 @@
 
 > Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
 
+Inspired by the original [`pretty-ms`](https://github.com/sindresorhus/pretty-ms)
+
 ## Install
 
 ```sh
-npm install pretty-ms
+npm install react-native-pretty-ms
 ```
 
 ## Usage
 
 ```js
-import prettyMilliseconds from 'pretty-ms';
+import prettyMilliseconds from 'react-native-pretty-ms';
 
 prettyMilliseconds(1337000000);
 //=> '15d 11h 23m 20s'
@@ -135,7 +137,7 @@ Setting `colonNotation` to `true` overrides the following options to `false`:
 - `verbose`
 
 ## Related
-
+- [pretty-ms](https://github.com/sindresorhus/pretty-ms-cli) - Node version of this module
 - [pretty-ms-cli](https://github.com/sindresorhus/pretty-ms-cli) - CLI for this module
 - [parse-ms](https://github.com/sindresorhus/parse-ms) - Parse milliseconds into an object
 - [to-milliseconds](https://github.com/sindresorhus/to-milliseconds) - Convert an object of time properties to milliseconds
